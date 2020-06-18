@@ -94,6 +94,23 @@
         </div>
       </div>
       </div>
+<hr/>
+     <div class="container">
+         <div class="d-flex justify-content-end">
+         <ul class="nav sm-l">
+           
+            <li class="nav-item">
+              <a href="" class="nav-link"> <i class="fab fa-github"></i> </a>
+            </li>
+             <li class="nav-item">
+              <a href="" class="nav-link"> <i class="fab fa-youtube"></i> </a>
+            </li>
+             <li class="nav-item">
+              <a href="" class="nav-link"> <i class="fab fa-youtube"></i> </a>
+            </li>
+         </ul>
+      </div> 
+      </div>
     </footer>
 </template>
 
@@ -112,7 +129,7 @@ background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996
 background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  padding-bottom: 16px;
    
-  height: 283px;
+  height: auto;
   width: 100%;
   margin-top: 45px;
 }
@@ -125,9 +142,28 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 .fte>li>a.nav-link{
     display: block;
     padding: 2px;padding: 4px 2px;
-    font-size: 17px;
+    font-size: 15px;
  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #616161;
+}
+
+h4.fh{
+  font-size: 17px;
+  font-weight: 600;
+  color: #F92528 ;
+}
+
+hr {
+  background: #dfe1e5;
+  border: 0;
+  height: 2px;
+      margin: 10px 100px;
+  padding: 0;
+}
+
+ul.sm-l>li>a{
+font-size: 25px;
+    color: #fff;
 }
 </style>

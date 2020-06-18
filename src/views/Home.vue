@@ -6,7 +6,7 @@
         <div class="list-section">
           <h1 class="ls-heading">Do whatever you need to</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, maiores similique ab debitis dolorem eligendi ullam praesentium vel repellendus iste!</p>
-          <button class="btn btn-pirmary">Watch Now</button>
+          <button class="btn btn-pirmary"> Watch Now</button>
           <button class="btn btn-danger">Watch Now</button>
         </div>
       </div>
@@ -44,7 +44,7 @@ button.btn-pirmary {
 }
 
 button.btn-danger {
-  background: #ff1567;
+  background: #FF3F3F;
   color: blanchedalmond;
   margin-left: 10px;
   width: 169px;
@@ -53,7 +53,7 @@ button.btn-danger {
 }
 
 button.btn-pirmary:hover {
-  background: #ff1567;
+  background: #FF3F3F;
   color: blanchedalmond;
 }
 
@@ -69,6 +69,7 @@ background: #ADA996;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 padding-bottom: 50px;
+margin-top: -27px;
 }
 
 .list-section {

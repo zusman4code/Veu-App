@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   <Header />
-  <div class="container-fluid">
+  <div class="container-fluid cf-sprt">
     <router-view/>
   </div>
   <Customers />
@@ -30,7 +30,8 @@ export default {
 
 
 <style>
-.container-fluid{
-padding:0px;
+.cf-sprt{
+padding:0px !important;
+margin-top:90px;
 }
 </style>

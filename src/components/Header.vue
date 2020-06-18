@@ -1,15 +1,15 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-3">
   <div class="container" >
-  <a class="navbar-brand" href="#">{{siteTile}}</a>
+  <a class="navbar-brand font-weight-bold" href="#">{{siteTile}}</a>
 
-  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+  <div class="navbar-collapse collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
     <router-link to="/" class="nav-link" href="#">Home </router-link>
       </li>
       <li class="nav-item">
-     <router-link to="/task" class="nav-link" href="#">Task Activities</router-link>
+     <router-link to="/dashboard" class="nav-link" href="#">Dashboard</router-link>
       </li>
     
      <li class="nav-item">
@@ -38,7 +38,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
  .navbar{
-  background: #fff;
+  background:#FF3F3F !important;
+  margin-bottom: 0px;
 } 
 .search{
    background: green;
@@ -47,7 +48,7 @@ export default {
 
 .navbar .nav-item >.nav-link{
   color:#616161;
-      padding:12px 16px;
+  padding:12px 16px;
   letter-spacing:0.02em ;
   font-size:16px ;
   font-family: 'Open Sans', sans-serif;
@@ -56,13 +57,30 @@ export default {
 }
 
 
+
 a.navbar-brand {
-  color:#616161;
-      font-size: 25px;
-      font-weight: 600;
+      text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.625rem;
 }
 a.navbar-brand:hover{
   color: black;
+}
+
+
+.navbar-collapse:not(.has-image) {
+    background: transparent!important;
+    background-image: initial !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+  
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important;
 }
 
 </style>

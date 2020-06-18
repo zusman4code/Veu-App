@@ -52,13 +52,13 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 }
 
 .oc-head > h5 {
-  color: #42526e;
+  color: #F92528 ;
   letter-spacing: 1px;
   font-size: 17px;
 }
 
 .oc-name {
-  padding: 30px 0px;
+  padding: 40px 0px;
 }
 
 .oc-name > hr {

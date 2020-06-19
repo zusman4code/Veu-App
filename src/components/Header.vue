@@ -13,7 +13,7 @@
       </li>
     
      <li class="nav-item">
-     <router-link to="/task" class="nav-link" href="#">Menu</router-link>
+     <router-link to="/task" class="nav-link" href="#"> <img src="@/assets/user.png" class="mx-auto d-block user-img" alt="...">  </router-link>
       </li>
     
     </ul>
@@ -43,11 +43,11 @@ export default {
 } 
 .search{
    background: green;
-   color : white;
+   color : rgb(196, 189, 189);
 }
 
 .navbar .nav-item >.nav-link{
-  color:#616161;
+  color:#fefefe;
   padding:12px 16px;
   letter-spacing:0.02em ;
   font-size:16px ;
@@ -82,5 +82,9 @@ a.navbar-brand:hover{
     background-clip: initial !important;
     background-color: transparent !important;
 }
+ img.user-img{
+width: 30px;
+    border-radius: 50%;
+ }
 
 </style>

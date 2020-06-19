@@ -9,85 +9,85 @@
             <h4 class="fh font-weight-bold">PRODUCTS</h4>
             <ul class="nav flex-column fte">
               <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#">GRS Software</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#">GRS Services</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#">GRS Align</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Confluence </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Bitbucket </a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-3">
           <div class="fc">
-            <h4 class="fh font-weight-bold">PRODUCTS</h4>
+            <h4 class="fh font-weight-bold"> Resources </h4>
             <ul class="nav flex-column fte">
               <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Technical Support </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Purchasing & licensing </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Atlassian Community </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Knowledge base </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Marketplace </a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-3">
           <div class="fc">
-            <h4 class="fh font-weight-bold">PRODUCTS</h4>
+            <h4 class="fh font-weight-bold"> Expand & Learn </h4>
             <ul class="nav flex-column fte">
               <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Documentation </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Developer Resources </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Purchasing FAQ </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Enterprise services </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> View all resources </a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-3">
           <div class="fc">
-            <h4 class="fh font-weight-bold">PRODUCTS</h4>
+            <h4 class="fh font-weight-bold"> About GRS </h4>
             <ul class="nav flex-column fte">
               <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Company </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Careers </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Events </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Blogs </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">Footer Link</a>
+                <a class="nav-link" href="#"> Contact us </a>
               </li>
             </ul>
           </div>
@@ -106,7 +106,10 @@
               <a href="" class="nav-link"> <i class="fab fa-youtube"></i> </a>
             </li>
              <li class="nav-item">
-              <a href="" class="nav-link"> <i class="fab fa-youtube"></i> </a>
+              <a href="" class="nav-link"> <i class="fab fa-facebook"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> <i class="fab fa-twitter"></i> </a>
             </li>
          </ul>
       </div> 
@@ -151,7 +154,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 h4.fh{
   font-size: 17px;
   font-weight: 600;
-  color: #F92528 ;
+  color: #828283 ;
 }
 
 hr {
